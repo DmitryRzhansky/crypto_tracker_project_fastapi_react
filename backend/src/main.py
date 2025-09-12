@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from backend.src.http_client import CMCHTTPClient
-from src.config import settings
+from .http_client import CMCHTTPClient
+from .config import settings
 import asyncio
 
 app = FastAPI(title="Crypto API", description="Пример FastAPI клиента для CoinMarketCap")
